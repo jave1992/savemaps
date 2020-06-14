@@ -35,7 +35,7 @@ export class LoginComponent implements OnInit {
   googleInit(){
     gapi.load('auth2', () => {
       this.auth2 = gapi.auth2.init({
-        client_id: '952357321750-d7pv1gsabng26vbeh79q4r8fne06a9el.apps.googleusercontent.com',
+        client_id: '21207407458-8tcmv70afqn704pq82nkoeav1cpqkeim.apps.googleusercontent.com',
         cookiepolicy: 'single_host_origin',
         scope: 'profile email'
       });
